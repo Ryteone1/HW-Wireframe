@@ -12,54 +12,73 @@ body {
 	margin: 0 auto 0 auto;
 }
 
-#header {
-	padding: 20px;
+
+header {
+	padding: 30px;
 	background: #ebebeb;
 	margin: 10px 40px;
+
 }
 
-#nav {
+nav {
 	background: #ebebeb;
-	padding: 20px;
+	padding: 30px;
 	margin: 10px 40px;
+
 }
 
-#section {
+section {
+	float: 	left;
+	width: 495px;
+	height: 260px;
 	background: #ebebeb;
-	padding: 60px;
-	margin: 20px 20px 20px 40px;
+	padding: 50px;
+	margin: 10px 20px 20px 0px;
+	position: relative;
+	left: 40px	
 }
 
-#article {
+article{
 	background: #777;
 	color: #ebebeb;
-	padding: 50px;
-	margin: 50px 20px 20px 20px;
+	padding: 20px;
+	margin: 0px 10px;
+	width: 475px;
+	height: 160px;
+	position: absolute;
+	bottom: 10px;
+	right: 2px;
 }
 
-#headers {
+h1 {
 	background: #ebebeb;
 	padding: 10px;
 	color: #777;
 }
 
-#paragraph {
+p {
 	background: #ebebeb;
 	color: #777;
 	padding: 10px;
-	margin: 10px 20px 20px 20px;
+	position: relative;
+	bottom: 10px;
 }
 
 
-#aside {
+aside {
+	float: left;
 	background: #ebebeb;
-	padding: 60px;
-	width: 495px;
-	margin: 20px 40px 20px 20px;
+	padding: 30px;
+	height: 260px;
+	width: 365px;
+	margin: 10px 0px 20px 20px;
+	position: relative;
+	left: 20px;
 }
 
 footer {
-	padding: 20px;
+	clear: both;
+	padding: 30px;
 	background: #ebebeb;
 	margin: 10px 40px;
 }
